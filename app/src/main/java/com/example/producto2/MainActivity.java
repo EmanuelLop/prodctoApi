@@ -8,9 +8,7 @@ import android.widget.TextView;
 import com.example.producto2.client.RetrofitClient;
 import com.example.producto2.entity.Message;
 import com.example.producto2.service.RetrofitApiService;
-
 import java.util.Random;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
