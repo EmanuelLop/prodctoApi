@@ -6,8 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import com.example.producto2.client.RetrofitClient;
+import com.example.producto2.entity.Datos;
 import com.example.producto2.entity.Message;
 import com.example.producto2.service.RetrofitApiService;
+
+import java.util.List;
 import java.util.Random;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -55,4 +58,18 @@ public class MainActivity extends Activity {
             }
         });
     }
+    /*private void getDatos(int id){
+        apiService.getDatosById(id).enqueue(new Callback<List<Datos>>() {
+            @Override
+            public void onResponse(Call<List<Datos>> call, Response<List<Datos>> response) {
+                List<Datos> datos = response.body();
+                mTextView.setText(datos.toString());
+            }
+
+            @Override
+            public void onFailure(Call<List<Datos>> call, Throwable t) {
+                mTextView.setText(t.getMessage());
+            }
+        });
+    }*/
 }
