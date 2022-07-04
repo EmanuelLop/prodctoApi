@@ -7,7 +7,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-    private static final String URL_BASE = "https://gateway.marvel.com/v1/public/";
+    private static final String URL_BASE = "https://dummyjson.com/";
     private static Retrofit retrofit;
 
     public static RetrofitApiService getApiService(){

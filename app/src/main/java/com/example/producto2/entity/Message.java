@@ -1,52 +1,28 @@
 package com.example.producto2.entity;
 
 public class Message {
-    private int code;
-    private String status;
-    private String copyright;
-    private String attributionText;
-    private String attributionHTML;
-    private int etag;
-    private Datos data;
+    private int id;
+    private String quote;
+    private String author;
 
-    public int getCode() {
-        return code;
+    public int getId() {
+        return id;
     }
 
-    public String getStatus() {
-        return status;
+    public String getQuote() {
+        return quote;
     }
 
-    public String getCopyright() {
-        return copyright;
-    }
-
-    public String getAttributionText() {
-        return attributionText;
-    }
-
-    public String getAttributionHTML() {
-        return attributionHTML;
-    }
-
-    public int getEtag() {
-        return etag;
-    }
-
-    public Datos getData() {
-        return data;
+    public String getAuthor() {
+        return author;
     }
 
     @Override
     public String toString() {
         return "Message{" +
-                "code=" + code +
-                ", status='" + status + '\'' +
-                ", copyright='" + copyright + '\'' +
-                ", attributionText='" + attributionText + '\'' +
-                ", attributionHTML='" + attributionHTML + '\'' +
-                ", etag=" + etag +
-                ", data=" + data +
+                "id=" + id +
+                ", quote='" + quote + '\'' +
+                ", author='" + author + '\'' +
                 '}';
     }
 }

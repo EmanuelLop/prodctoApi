@@ -18,7 +18,7 @@
             android:id="@+id/messageTextView"
             android:layout_width="160dp"
             android:layout_height="36dp"
-            android:text="Te recomiendo este comic"
+            android:text="¿Conoce los codigos postales?"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +28,7 @@
             android:layout_height="44dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="92dp"
-            android:text="Comic"
+            android:text="C.P"
             app:layout_constraintStart_toStartOf="@+id/messageTextView"
             app:layout_constraintTop_toTopOf="@+id/messageTextView" />
 
