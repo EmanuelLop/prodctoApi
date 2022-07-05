@@ -18,19 +18,29 @@
             android:id="@+id/messageTextView"
             android:layout_width="160dp"
             android:layout_height="36dp"
-            android:text="¿Conoce los codigos postales?"
+            android:text="Api de citas de libros y caracteristicas de celular"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/mbutton"
-            android:layout_width="84dp"
-            android:layout_height="44dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="63dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="92dp"
-            android:text="C.P"
+            android:text="Ema"
             app:layout_constraintStart_toStartOf="@+id/messageTextView"
             app:layout_constraintTop_toTopOf="@+id/messageTextView" />
+
+        <Button
+            android:id="@+id/mbuttons"
+            android:layout_width="63dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="4dp"
+            android:text="kike"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageTextView" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.wear.widget.BoxInsetLayout>
